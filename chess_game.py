@@ -1,5 +1,6 @@
 from board import Board
 from player import HumanPlayer, AIPlayer, GUIHumanPlayer
+from move import Move  # Import the Move class
 
 class ChessGame:
     def __init__(self, use_gui=False, ai_depth=3):
